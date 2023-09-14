@@ -1,6 +1,4 @@
 //imprima los valores en esta secuencia  4, 2.5, 1, -0.5, -2, -3.5.
-let x=[4, 2.5, 1, -0.5, -2, -3.5];
-
-for(i=0; i<x.length; i++){
-    console.log(x[i]);
+for(let i=4; i>-4; i-=1.5){
+    console.log(i);
 }
